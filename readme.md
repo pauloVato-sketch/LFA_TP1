@@ -7,7 +7,7 @@ Alunos: Paulo Lopes do Nascimento e Vinicius Hiago Gonçalves Ribeiro
 Professor: Andrei Rimsa Álvares
 ## Bibliotecas utilizadas
 
-- [Serde] - Serializer/Deserializer for Rust data structures 
+- [Serde] - Serializador/Deserializador para estruturas de dados Rust.
 
 ## Instalação
 Este projeto requer [Rust].
