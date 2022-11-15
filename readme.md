@@ -21,6 +21,10 @@ curl https://sh.rustup.rs -sSf | sh
 On Windows, faça download e execute o arquivo rustup-init.exe [Rust] (para escolha do arquivo em relação a sua arquitetura, veja https://forge.rust-lang.org/infra/other-installation-methods.html).
 
 ## Execução
+Para compilar o projeto, digite o seguinte comando na raiz do projeto (nível deste arquivo):
+```
+cargo build
+```
 Para executar o projeto, segue o seguinte:
 - Coloque os arquivos de teste dentro da pasta 'testFiles'.
 - Navegue até a raiz do projeto (nível deste arquivo), e execute o comando:
