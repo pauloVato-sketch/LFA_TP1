@@ -32,6 +32,7 @@ Exemplo:
 cargo run -- mt.json "abba"
 ```
 Saída do exemplo acima:
+
 ![Image](https://github.com/pauloVato-sketch/LFA_TP1/blob/master/res/saidaExemplo.PNG?raw=true)
 
 [//]: # 
