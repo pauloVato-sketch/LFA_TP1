@@ -3,11 +3,14 @@
 [![CEFET-MG](https://www.dirgrad.cefetmg.br/wp-content/themes/administrativos-mapa-child/imagens/logo_CEFET-1.png)](https://www.cefetmg.br/)
 
 Trabalho prático referente à disciplina do 5º período do curso de Engenharia de Computação, Linguagens Formais e Autômatos (LFA).
+
 Alunos: Paulo Lopes do Nascimento e Vinicius Hiago Gonçalves Ribeiro
+
 Professor: Andrei Rimsa Álvares
+
 ## Bibliotecas utilizadas
 
-- [Serde] - Serializer/Deserializer for Rust data structures 
+- [Serde] - Serializador/Deserializador para estruturas de dados Rust.
 
 ## Instalação
 Este projeto requer [Rust].
