@@ -9,6 +9,7 @@
 #![allow(dead_code)]
 #![allow(unused_assignments)]
 use std::env;
+use std::path::Path;
 // Importando crate 'serde' para parsing do JSON
 extern crate serde;
 // Imports utilizados:
@@ -169,12 +170,12 @@ impl Automata{
 */
 fn leArquivo(filename : String) -> Automata {
     // Declara variável para concatenar o nome do arquivo com estrutura de diretório do projeto.
-    let mut directory : String= "testFiles\\".to_owned();
+    let mut directory : String= "testFiles/".to_owned();
     directory.push_str(&filename);
-   // println!("{:?}",directory);
+    let directoryPath = Path::new(&directory);
     // Declara objeto do arquivo, tentando abrir o caminho especificado, exibindo mensagem
     // "Arquivo não encontrado" caso não consiga proceder com a operação.
-    let mut file = fs::File::open(directory).expect("Arquivo não encontrado");
+    let mut file = fs::File::open(directoryPath).expect("Arquivo não encontrado");
     // Declara buffer para arquivo
     let mut buff = String::new();
     // Lê arquivo JSON para o buffer
