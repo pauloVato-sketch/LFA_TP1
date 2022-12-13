@@ -1,0 +1,19 @@
+digraph "MT" {
+  label = <L = { 0<sup>2^n</sup> }>
+  labelloc = "t"
+  _nil [style="invis"]
+  _nil -> "A" [label=""]
+  "A" -> "B" [label=" ⊔/⊔E "]
+  "A" -> "D" [label=" 0/XD "]
+  "B" -> "C" [label=" X/0E "]
+  "C" -> "C" [label=" X/0E "]
+  "C" -> "A" [label=" ⟨/⟨D "]
+  "D" -> "D" [label=" 0/0D "]
+  "D" -> "E" [label=" ⊔/⊔E "]
+  "E" -> "F" [label=" 0/⊔E "]
+  "E" -> "G" [label=" X/⊔E "]
+  "F" -> "F" [label=" 0/0E "]
+  "F" -> "A" [label=" X/XD "]
+  "G" -> "H" [label=" ⟨/⟨D "]
+  "H" [peripheries=2]
+}

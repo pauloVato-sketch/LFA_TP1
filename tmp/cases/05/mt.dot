@@ -1,0 +1,27 @@
+digraph "MT" {
+  label = <L = { xx | x &isin; {a,b}<sup>*</sup> }>
+  labelloc = "t"
+  _nil [style="invis"]
+  _nil -> "1" [label=""]
+  "1" -> "2" [label=" a/AD ; b/BD "]
+  "1" -> "5" [label=" A/aD ; B/bD "]
+  "2" -> "2" [label=" a/aD ; b/bD "]
+  "2" -> "3" [label=" ⊔/⊔E ; A/AE ; B/BE "]
+  "3" -> "4" [label=" a/AE ; b/BE "]
+  "4" -> "4" [label=" a/aE ; b/bE "]
+  "4" -> "1" [label=" A/AD ; B/BD "]
+  "5" -> "5" [label=" A/aD ; B/bD "]
+  "5" -> "6" [label=" ⊔/⊔E "]
+  "6" -> "6" [label=" X/XE "]
+  "6" -> "7" [label=" a/XE "]
+  "6" -> "8" [label=" b/XE "]
+  "6" -> "F" [label=" ⟨/⟨D "]
+  "7" -> "7" [label=" a/aE ; b/bE ; X/XE "]
+  "7" -> "9" [label=" A/XD "]
+  "8" -> "8" [label=" a/aE ; b/bE ; X/XE "]
+  "8" -> "9" [label=" B/XD "]
+  "9" -> "9" [label=" a/aD ; b/bD ; X/XD "]
+  "9" -> "6" [label=" ⊔/⊔E "]
+  "1" [peripheries=2]
+  "F" [peripheries=2]
+}

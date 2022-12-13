@@ -1,0 +1,17 @@
+digraph "MT" {
+  label = <L = { ww<sup>R</sup> | w &isin; {a,b}<sup>*</sup> }>
+  labelloc = "t"
+  _nil [style="invis"]
+  _nil -> "1" [label=""]
+  "1" -> "2a" [label=" a/⊔D "]
+  "1" -> "2b" [label=" b/⊔D "]
+  "2a" -> "2a" [label=" a/aD ; b/bD "]
+  "2a" -> "3a" [label=" ⊔/⊔E "]
+  "2b" -> "2b" [label=" a/aD ; b/bD "]
+  "2b" -> "3b" [label=" ⊔/⊔E "]
+  "3a" -> "4" [label=" a/⊔E "]
+  "3b" -> "4" [label=" b/⊔E "]
+  "4" -> "4" [label=" a/aE ; b/bE "]
+  "4" -> "1" [label=" ⊔/⊔D "]
+  "1" [peripheries=2]
+}
