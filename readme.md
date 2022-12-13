@@ -42,6 +42,10 @@ Saída do exemplo acima:
 
 ![Image](https://github.com/pauloVato-sketch/LFA_TP1/blob/master/res/saidaExemplo.PNG?raw=true)
 
+Para executar os casos de teste definidos pelo professor, basta executar no bash:
+```
+tmp/check.sh cargo run --
+```
 [//]: # 
 
    [LFA_TP1]: <https://github.com/pauloVato-sketch/LFA_TP1>
